@@ -1,4 +1,3 @@
-# project-board
 This is a project board that provides a visual display to keep track of my current projects' tasks and their individual statuses.
 
 You can visit the site [here](https://danielcoombs005.github.io/project-board/index.html).
