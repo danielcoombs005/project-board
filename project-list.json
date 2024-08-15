@@ -1,0 +1,48 @@
+{
+    "to-do": [
+        {
+            "title": "Add ",
+            "projectAssociation": "",
+            "projectRepository": "",
+            "dateProposed": "",
+            "priority": 1,
+            "description": "",
+            "criteria": [
+
+            ]
+        }
+    ],
+    "in-progress": [
+        {
+            "title": "OVERALL - COMPLETE WEBSITE",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "July 31, 2024",
+            "priority": 1,
+            "description": "Create a website to showcase my various experience and demonstrate acquired knowledge.",
+            "criteria": [
+                "Create a landing page to display my summary.",
+                "Add a page section to share information about me.",
+                "Add a page section to allow someone to contact me through e-mail.",
+                "Add a page section to showcase some of my projects (only requires base logic, not extended project data through JSON).",
+                "Add styling to various components of the page."
+            ]
+        },
+        {
+            "title": "OVERALL - COMPLETE WEBSITE",
+            "projectAssociation": "Project Board",
+            "projectRepository": "",
+            "dateProposed": "August 14, 2024",
+            "priority": 1,
+            "description": "Create a website to display my current progress on all projects.",
+            "criteria": [
+                "Create an application which reads from a JSON file and displays projects and individual tasks under relevant columns.",
+                "Create a private application which allows the addition, editing, and removal of tasks from the board."
+            ]
+        }
+    ],
+    "completed": [
+    ],
+    "dropped": [
+    ]
+}

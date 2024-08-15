@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 1%;
+}
+
+#all-projects-block {
+    display: flex;
+    height: 96vh; /*maybe change this?*/
+}
+
+.category-block-group {
+    height: 100%;
+    width: 23%;
+    margin: 0 1%;
+}
+
+.category-block-title {
+    align-items: center;
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+.category-block-content {
+    border: 1px solid;
+    height: 95%;
+}
