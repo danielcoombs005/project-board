@@ -1,14 +1,73 @@
 {
     "to-do": [
         {
-            "title": "Add ",
-            "projectAssociation": "",
-            "projectRepository": "",
-            "dateProposed": "",
-            "priority": 1,
-            "description": "",
+            "title": "Fix the messages rendering strangely",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "August 22, 2024",
+            "priority": 2,
+            "description": "Fix the messages rendering outside of the 10 second period, sometimes fading and loading the same message.",
             "criteria": [
-
+                "Ensure that the fade in and out only occurs once every 10 seconds consistently.",
+                "Ensure that the next loaded item is the next message and not the current message."
+            ]
+        },
+        {
+            "title": "OVERALL - COMPLETE WEBSITE",
+            "projectAssociation": "Project Board",
+            "projectRepository": "https://github.com/danielcoombs005/project-board",
+            "dateProposed": "Aug 14, 2024",
+            "priority": 3,
+            "description": "Extend the website locally to add, edit, and remove tasks from the JSON file.",
+            "criteria": [
+                "Create a private application which allows the addition, editing, and removal of tasks from the board."
+            ]
+        },
+        {
+            "title": "Add transition animations to expanding/closing tasks",
+            "projectAssociation": "Project Board",
+            "projectRepository": "https://github.com/danielcoombs005/project-board",
+            "dateProposed": "Aug 22, 2024",
+            "priority": 3,
+            "description": "Modify the existing CSS logic to display an animation when toggling the state of a task.",
+            "criteria": [
+                "Modify the current transition logic so that the animation is detected properly."
+            ]
+        },
+        {
+            "title": "OVERALL - COMPLETE WEBSITE",
+            "projectAssociation": "Sorting Algorithms",
+            "projectRepository": "",
+            "dateProposed": "Aug 22, 2024",
+            "priority": 3,
+            "description": "Upload the current code for the sorting algorithms project to its own website.",
+            "criteria": [
+                "Upload the sorting algorithm code to GitHub to start a website.",
+                "Complete further sorting algorithms."
+            ]
+        },
+        {
+            "title": "Update column CSS",
+            "projectAssociation": "Project Board",
+            "projectRepository": "https://github.com/danielcoombs005/project-board",
+            "dateProposed": "Aug 22, 2024",
+            "priority": 4,
+            "description": "Update the column CSS to extend the columns only to the edge of the page.",
+            "criteria": [
+                "Update the height detection to use the live page's statistics."
+            ]
+        },
+        {
+            "title": "OVERALL - COMPLETE WEBSITE",
+            "projectAssociation": "Project Board",
+            "projectRepository": "https://github.com/danielcoombs005/project-board",
+            "dateProposed": "Aug 22, 2024",
+            "priority": 5,
+            "description": "Integrate a full-stack application to handle the data of the site.",
+            "criteria": [
+                "Create an API server that adds, updates, and removes data from the site as necessary,",
+                "Add a database server, SQL or MongoDB, which stores the data into respective tables/collections.",
+                "OPTIONAL: create user handling in the back end to allow a user on the live site to switch to editing mode."
             ]
         }
     ],
@@ -27,12 +86,14 @@
                 "Add a page section to showcase some of my projects (only requires base logic, not extended project data through JSON).",
                 "Add styling to various components of the page."
             ]
-        },
+        }
+    ],
+    "completed": [
         {
             "title": "OVERALL - COMPLETE WEBSITE",
             "projectAssociation": "Project Board",
-            "projectRepository": "",
-            "dateProposed": "August 14, 2024",
+            "projectRepository": "https://github.com/danielcoombs005/project-board",
+            "dateProposed": "Aug 14, 2024",
             "priority": 1,
             "description": "Create a website to display my current progress on all projects.",
             "criteria": [
@@ -40,8 +101,6 @@
                 "Create a private application which allows the addition, editing, and removal of tasks from the board."
             ]
         }
-    ],
-    "completed": [
     ],
     "dropped": [
     ]
