@@ -1,18 +1,6 @@
 {
     "to-do": [
         {
-            "title": "Fix the messages rendering strangely",
-            "projectAssociation": "Portfolio",
-            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
-            "dateProposed": "August 22, 2024",
-            "priority": 2,
-            "description": "Fix the messages rendering outside of the 10 second period, sometimes fading and loading the same message.",
-            "criteria": [
-                "Ensure that the fade in and out only occurs once every 10 seconds consistently.",
-                "Ensure that the next loaded item is the next message and not the current message."
-            ]
-        },
-        {
             "title": "OVERALL - COMPLETE WEBSITE",
             "projectAssociation": "Project Board",
             "projectRepository": "https://github.com/danielcoombs005/project-board",
@@ -47,6 +35,32 @@
             ]
         },
         {
+            "title": "Add responsive web design",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "Aug 22, 2024",
+            "priority": 3,
+            "description": "Update the CSS of the page to support mobile design.",
+            "criteria": [
+                "Add media queries for mobile design.",
+                "Add media queries for various desktop sizes.",
+                "Add media queries for tablet design."
+            ]
+        },
+        {
+            "title": "Add responsive web design",
+            "projectAssociation": "Project Board",
+            "projectRepository": "https://github.com/danielcoombs005/project-board",
+            "dateProposed": "Aug 22, 2024",
+            "priority": 4,
+            "description": "Update the CSS of the page to support mobile design.",
+            "criteria": [
+                "Add media queries for mobile design.",
+                "Add media queries for various desktop sizes.",
+                "Add media queries for tablet design."
+            ]
+        },
+        {
             "title": "Update column CSS",
             "projectAssociation": "Project Board",
             "projectRepository": "https://github.com/danielcoombs005/project-board",
@@ -55,6 +69,17 @@
             "description": "Update the column CSS to extend the columns only to the edge of the page.",
             "criteria": [
                 "Update the height detection to use the live page's statistics."
+            ]
+        },
+        {
+            "title": "Update scrollbar CSS",
+            "projectAssociation": "Project Board",
+            "projectRepository": "https://github.com/danielcoombs005/project-board",
+            "dateProposed": "Aug 22, 2024",
+            "priority": 3,
+            "description": "Update the scrollbar CSS so that the border remains rounded on the right side.",
+            "criteria": [
+                "Update the scrollbar CSS so that the border remains rounded on the right side."
             ]
         },
         {
@@ -72,33 +97,100 @@
         }
     ],
     "in-progress": [
+    ],
+    "completed": [
         {
             "title": "OVERALL - COMPLETE WEBSITE",
             "projectAssociation": "Portfolio",
             "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
             "dateProposed": "July 31, 2024",
+            "dateCompleted": "Aug 22, 2024",
             "priority": 1,
             "description": "Create a website to showcase my various experience and demonstrate acquired knowledge.",
             "criteria": [
                 "Create a landing page to display my summary.",
                 "Add a page section to share information about me.",
-                "Add a page section to allow someone to contact me through e-mail.",
+                "Add a page section to allow someone to contact me through email.",
                 "Add a page section to showcase some of my projects (only requires base logic, not extended project data through JSON).",
                 "Add styling to various components of the page."
             ]
-        }
-    ],
-    "completed": [
+        },
         {
             "title": "OVERALL - COMPLETE WEBSITE",
             "projectAssociation": "Project Board",
             "projectRepository": "https://github.com/danielcoombs005/project-board",
             "dateProposed": "Aug 14, 2024",
+            "dateCompleted": "Aug 22, 2024",
             "priority": 1,
             "description": "Create a website to display my current progress on all projects.",
             "criteria": [
                 "Create an application which reads from a JSON file and displays projects and individual tasks under relevant columns.",
                 "Create a private application which allows the addition, editing, and removal of tasks from the board."
+            ]
+        },
+        {
+            "title": "Add landing page",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "July 31, 2024",
+            "dateCompleted": "July 31, 2024",
+            "priority": 1,
+            "description": "Add a page for my immediate information.",
+            "criteria": [
+                "Add a landing page which shows my name, title, and relevant websites."
+            ]
+        },
+        {
+            "title": "Add about me page",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "July 31, 2024",
+            "dateCompleted": "July 31, 2024",
+            "priority": 1,
+            "description": "Add a page to display information about me.",
+            "criteria": [
+                "Add a summary of my background and professional experience."
+            ]
+        },
+        {
+            "title": "Add contact page",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "July 31, 2024",
+            "dateCompleted": "Aug 22, 2024",
+            "priority": 1,
+            "description": "Add a page to allow professional inquiry opportunities through email.",
+            "criteria": [
+                "Add a page dedicated to contacting me through email.",
+                "Provide an email template to help the user craft an email",
+                "Add several options to help prepare the email template."
+            ]
+        },
+        {
+            "title": "Add projects page",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "July 31, 2024",
+            "dateCompleted": "Aug 6, 2024",
+            "priority": 1,
+            "description": "Add a page to display my projects.",
+            "criteria": [
+                "List all of my projects on the page.",
+                "Provide each projects' details including name, website, Github location, status of completion, a small summary, and relevant tools and languages.",
+                "Use page handling to display the projects neatly."
+            ]
+        },
+        {
+            "title": "Fix the messages rendering strangely",
+            "projectAssociation": "Portfolio",
+            "projectRepository": "https://github.com/danielcoombs005/danielcoombs005.github.io",
+            "dateProposed": "August 22, 2024",
+            "priority": 2,
+            "description": "Fix the messages rendering outside of the 10 second period, sometimes fading and loading the same message.",
+            "criteria": [
+                "Ensure that the fade in and out only occurs once every 10 seconds consistently.",
+                "Ensure that the next loaded item is the next message and not the current message.",
+                "Note: The issue occurs when switching to a new tab. The timer will \"reset\", causing the message to fade in and out 10 seconds as well at the new interval."
             ]
         }
     ],
